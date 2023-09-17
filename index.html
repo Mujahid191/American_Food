@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>American Food</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid header">
+            <div class="container">
+                <div class="row header_row text-white">
+                    <div class="col-3 search_col">
+                        <input type="search" placeholder="Search Here" class="form-control search">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                    <div class="col-auto logo_col ms-auto">
+                        <img src="assets/images/site_logo.png" alt="site_logo" class="site_logo">
+                    </div>
+                    <div class="col-auto header_right_side ms-auto">
+                        <div class="header_text">
+                            <a href="#">Register</a>
+                            <span>/</span>
+                            <a href="#">Login</a>
+                        </div>
+                        <div class="header_icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <sup class="fav_number">1</sup>
+                        <!-- <i class="fa-solid fa-heart"></i> -->
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <sup class="cart_number">1</sup>
+                        <!-- <i class="fa-regular fa-cart-shopping"></i> -->
+                        </div>
+                    </div>
+                    <div class="col-auto search_col responsive ms-auto">
+                        <input type="search" placeholder="Search Here" class="form-control search">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                    </div>
+                    <div class="col-auto ms-auto">
+                        <div class="toggle-icon" onclick="toggleMenu()">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-------------------- Navbar -------------------->
+    <div class="container">
+        <div class="row nav_row tu">
+            <div class="col-auto mx-auto">
+                <nav class="nav">
+                    <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">about us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-------------------- Banner Section -------------------->
+    <main>
+        <section class="banner_section">
+            <div class="container-fluid banner_bg">
+                <div class="container banner_text">
+                    <div class="row banner_row">
+                        <div class="col-xxl-5 col-lg-6">
+                            <h1 class="banner_h1 tu">american food</h1>
+                            <h2 class="banner_h2 tc">the best taste food</h2>
+                            <hr class="banner_line">
+                            <p class="banner_p1 tc">
+                                Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
+                            </p>
+                            <button class="btn banner_btn1 tu me-3">order now</button>
+                            <button class=" btn banner_arrow"><i class="fa-solid fa-arrow-left"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------- about Section -------------------->
+        <section class="about_section">
+            <div class="container">
+                <div class="row justify-content-center tu position-relative">
+                    <div class="col-auto"><h1 class="about_h1">about us</h1></div>
+                    <div class="col-auto"><h2 class="about_h2">about us</h2></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-auto">
+                        <p class="about_p1 text-center">
+                            Lorem Ipsum available, but the majority have suffered alterationin some form by injected humour.
+                        </p>
+                    </div>
+                </div>
+                <div class="row about_content">
+                    <div class="col-xxl-6 col-md-7 about_text">
+                        <h1 class="about_h3">Let food be thy medicine medicine be thy food.</h1>
+                        <p class="about_p2">
+                            Lorem Ipsum available, but the majority have sufferedalteration in some form by injected humour randomise words which don't look even slightly believable. If you are going to use a passage.
+                        </p>
+                        <p class="about_p2">
+                            Lorem Ipsum, you need to be sure there isn't anythingembarrassing hidden in the middle of text.
+                        </p>
+                        <button class="btn banner_btn1 about_btn1 tu me-3">order now</button>
+                        <button class=" btn banner_arrow about_arrow"><i class="fa-solid fa-arrow-left"></i></button>
+                    </div>
+                    <div class="col-xxl-6 col-md-5 about_img text-md-end text-center">
+                        <img src="assets/images/about_r.jpg" alt="american_food" class="img-fluid about_i1">
+                    </div>
+                </div>
+                <div class="row about_content">
+                    <div class="col-xxl-6 col-md-5 about_img">
+                        <img src="assets/images/about_l.jpg" alt="american_food" class="img-fluid about_i2">
+                    </div>
+                    <div class="col-xxl-6 col-md-7">
+                        <h1 class="about_h3">Let food be thy medicine medicine be thy food.</h1>
+                        <p class="about_p2">
+                            Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour randomise words which don't look even slightly believable. If you are going to use a passage.
+                        </p>
+                        <p class="about_p2">
+                            Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                        </p>
+                        <button class="btn banner_btn1 about_btn1 tu me-3">order now</button>
+                        <button class=" btn banner_arrow about_arrow"><i class="fa-solid fa-arrow-left"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------- Services Section -------------------->
+        <section class="services_section">
+            <div class="container">
+                <div class="row justify-content-center tu position-relative">
+                    <div class="col-auto"><h1 class="about_h1">services</h1></div>
+                    <div class="col-auto"><h2 class="about_h2">services</h2></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-auto">
+                        <p class="about_p1 text-center">
+                            Lorem Ipsum available, but the majority have suffered alterationin some form by injected humour.
+                        </p>
+                    </div>
+                </div>
+                <div class="services_menu">
+                    <div class="row services_row1">
+                        <div class="col-md-7 services_text">
+                            <div class="row services_heading">
+                                <div class="col-auto">
+                                    <h2 class="services_name">Peanut butter</h2>
+                                </div>
+                                <div class="col-auto">
+                                    <h2 class="services_price">$45</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="services_description">
+                                    Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+                                </p>
+                            </div>
+                            <button class="btn services_btn1 tu">buy now</button>
+                        </div>
+                        <div class="col-md-5 services_img">
+                            <img src="assets/images/price_i1.png" alt="peanut" class="img-fluid services_i1">
+                        </div>
+                    </div>
+                    <div class="row services_row2 mt-md-4">
+                        <div class="col-md-7 services_text">
+                            <div class="row services_heading">
+                                <div class="col-auto">
+                                    <h2 class="services_name">Pumpkin pie</h2>
+                                </div>
+                                <div class="col-auto">
+                                    <h2 class="services_price">$35</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="services_description">
+                                    Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+                                </p>
+                            </div>
+                            <button class="btn services_btn1 tu">buy now</button>
+                        </div>
+                        <div class="col-md-5 services_img">
+                            <img src="assets/images/price_i2.png" alt="peanut" class="img-fluid services_i1">
+                        </div>
+                    </div>
+                    <div class="row services_row3 mt-md-4">
+                        <div class="col-md-7 services_text">
+                            <div class="row services_heading">
+                                <div class="col-auto">
+                                    <h2 class="services_name">jambalaya</h2>
+                                </div>
+                                <div class="col-auto">
+                                    <h2 class="services_price">$50</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="services_description">
+                                    Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.
+                                </p>
+                            </div>
+                            <button class="btn services_btn1 tu">buy now</button>
+                        </div>
+                        <div class="col-md-5 services_img">
+                            <img src="assets/images/price_i3.png" alt="peanut" class="img-fluid services_i1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------- Discount Section -------------------->
+        <section class="discount_section">
+            <div class="container-fluid discount_bg">
+                <div class="container">
+                    <div class="row discount_text">
+                        <div class="col-xxl-6 col-md-7">
+                            <h5 class="discount_h1 tc">special</h5>
+                            <h5 class="discount_h2 tu">SALE 50% DISCOUNT</h5>
+                            <h5 class="discount_h3 tu">ALL FOOD PRODUCTS</h5>
+                            <p class="discount_p1 tc">
+                                Lorem Ipsum available, but the majority have suffered some form, by injected humour, or randomised words of Lorem Ipsum, you need to be sure.
+                            </p>
+                            <button class="btn banner_btn1 discount_btn1 tu me-3">discover now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------- Pricing Section -------------------->
+        <section class="pricing_section">
+            <div class="container">
+                <div class="row pricing_header justify-content-center tu position-relative">
+                    <div class="col-auto">
+                        <h1 class="about_h1">pricing</h1>
+                        <h2 class="about_h2 price_h2">pricing</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-auto">
+                        <p class="about_p1 text-center">
+                            Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.
+                        </p>
+                    </div>
+                </div>
+                <div class="row pricing_card d-flex justify-content-center">
+                    <div class="col-lg-4 col-auto card_1">
+                        <div class="card_header text-white">
+                            <div class="row"><h3 class="card_h1 tc">basic</h3></div>
+                            <div class="row"><h3 class="card_h2">$35</h3></div>
+                        </div>
+                        <div class="card_text card_body">
+                            <div class="row"><p class="card_p1 tc">6 piece chicken</p></div>
+                            <div class="row"><p class="card_p1 tc">6 piece beef chicken</p></div>
+                            <div class="row"><p class="card_p1 tc">6 piece burger</p></div>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn services_btn1 tu">buy now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-auto card_1">
+                        <div class="card_header text-white">
+                            <div class="row"><h3 class="card_h1 tc">standard</h3></div>
+                            <div class="row"><h3 class="card_h2">$50</h3></div>
+                        </div>
+                        <div class="card_text card_body">
+                            <div class="row"><p class="card_p1 tc">6 piece chicken</p></div>
+                            <div class="row"><p class="card_p1 tc">6 piece beef chicken</p></div>
+                            <div class="row"><p class="card_p1 tc">6 piece burger</p></div>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn services_btn1 tu">buy now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-auto card_1">
+                        <div class="card_header text-white">
+                            <div class="row"><h3 class="card_h1 tc">premium</h3></div>
+                            <div class="row"><h3 class="card_h2">$45</h3></div>
+                        </div>
+                        <div class="card_text card_body">
+                            <div class="row"><p class="card_p1 tc">6 piece chicken</p></div>
+                            <div class="row"><p class="card_p1 tc">6 piece beef chicken</p></div>
+                            <div class="row"><p class="card_p1 tc">6 piece burger</p></div>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn services_btn1 tu">buy now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------- Special Discount Section -------------------->
+        <section class="sp_discount_section">
+            <div class="container-fluid sp_discount_bg">
+                <div class="container">
+                    <div class="row sp_discount_text">
+                        <div class="col-xxl-6 col-md-7">
+                            <h5 class="discount_h1 tc">special</h5>
+                            <div class="row"><h5 class="discount_h2 tu">SALE 50% DISCOUNT</h5>
+                            <h5 class="discount_h3 tu">ALL FOOD PRODUCTS</h5>
+                            <p class="discount_p1 tc">
+                                Lorem Ipsum available, but the majority have suffered some form, by injected humour, or randomised words of Lorem Ipsum, you need to be sure.
+                            </p>
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn banner_btn1 about_btn1 tu me-3">discover now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-------------------- Blog Section -------------------->
+        <section class="blog_section">
+            <div class="container">
+                <div class="blog_heading">
+                    <div class="row justify-content-center tu position-relative">
+                        <div class="col-auto"><h1 class="about_h1">blog</h1></div>
+                        <div class="col-auto"><h2 class="about_h2 blog_h2">blog</h2></div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7 col-auto">
+                            <p class="about_p1 text-center">
+                                Lorem Ipsum available, but the majority have suffered alterationin some form by injected humour.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row blog_card">
+                    <div class="col-md-4 col-auto">
+                        <img src="assets/images/blog_i1.png" alt="role_burger" class="img-fluid blog_i1">
+                    </div>
+                    <div class="col-md-4 col-auto blog_text">
+                        <h4 class="blog_h1">Eat food. Not too much mostly plants.</h4>
+                        <p class="blog_p1">
+                            Lorem Ipsum available, but the majority have suffered alteration some form, by injected humour randomised words.
+                        </p>
+                        <button class="btn blog_btn1 tu">read more</button>
+                    </div>
+                    <div class="col-md-4 col-auto">
+                        <img src="assets/images/blog_i2.png" alt="burger" class="img-fluid blog_i2">
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-------------------- Footer Section -------------------->
+        <footer>
+            <div class="container-fluid footer">
+                <div class="row text-center">
+                    <div class="col">
+                        <img src="assets/images/site_logo.png" alt="site_logo" class="footer_logo">
+                    </div>
+                </div>
+                <div class="row text-center text-white">
+                    <div class="col">
+                        <h2 class="footer_h1 tu">american food</h2>
+                        <h6 class="footer_h2 tc">the best taste food</h6>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-pinterest-p"></i>
+                        </div>
+                        <h3 class="footer_tag">americanfood.com</h3>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.nav');
+            const right = document.querySelector('.header_right_side');
+            const toggleIcon = document.querySelector('.toggle-icon');
+            toggleIcon.classList.toggle('active');
+            nav.classList.toggle('show');
+            right.classList.toggle('show');
+        }
+    </script> 
+</body>
+</html>
